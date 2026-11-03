@@ -15,7 +15,7 @@ Audioware builds on red4ext-rs with macOS support (jac3km4/red4ext-rs#99; `Cargo
 `build.rs` builds RED4ext.SDK with CMake and needs the macOS copy of the SDK for game 2.5:
 
 ```sh
-git clone -b mac-rs-2.5 https://github.com/codeman101/RED4ext.SDK-macos
+git clone -b mac-next https://github.com/codeman101/RED4ext.SDK-macos
 git clone -b macos https://github.com/codeman101/audioware
 cd audioware
 RED4EXT_SDK_DIR=/path/to/RED4ext.SDK-macos cargo build --release -p audioware
